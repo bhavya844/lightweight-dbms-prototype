@@ -1,0 +1,45 @@
+student,create table student (id int; name varchar),bhavya,Sat Feb 24 18:43:13 AST 2024
+(1;"bhavya"),insert into student values (1;"bhavya"),bhavya,Sat Feb 24 18:43:31 AST 2024
+student,select id from student,bhavya,Sat Feb 24 18:43:46 AST 2024
+(2;jay),insert into students values (2;jay),bhavya,Sat Feb 24 18:45:37 AST 2024
+(1;bhavya),insert into student values (1;bhavya),bhavya,Sat Feb 24 18:46:30 AST 2024
+student,select id from student,bhavya,Sat Feb 24 18:46:39 AST 2024
+student,select id;name from student,bhavya,Sat Feb 24 18:46:47 AST 2024
+university,create table university (id int;name varchar(255)),bhavya,Sat Feb 24 18:52:35 AST 2024
+sports,create table sports (id int;name varchar(255)),bhavya,Sat Feb 24 22:16:35 AST 2024
+(1;"football");(2;"cricket");(3;"Rugby"),insert into sports values (1;"football");(2;"cricket");(3;"Rugby"),bhavya,Sat Feb 24 22:18:33 AST 2024
+sports,select id; name from sports,bhavya,Sat Feb 24 22:18:54 AST 2024
+sports,select name; id from sports,bhavya,Sat Feb 24 22:19:03 AST 2024
+courses,create table courses (id int; name varchar(255)),bhavya,Sat Feb 24 22:21:33 AST 2024
+Transaction Started,begin transaction;,bhavya,Sat Feb 24 22:21:42 AST 2024
+Commit,commit;,bhavya,Sat Feb 24 22:23:24 AST 2024
+(1;"maths");(2;"science");(3;"biology"),insert into courses values (1;"maths");(2;"science");(3;"biology");,bhavya,Sat Feb 24 22:23:24 AST 2024
+courses,select * from courses,bhavya,Sat Feb 24 22:23:35 AST 2024
+student,create table student (id int;firstNname varchar(255);lastName varchar(255))),bhavya,Sat Feb 24 22:31:03 AST 2024
+tutor,create table tutor (id int; firstName varchar(255); lastName varchar(255)),bhavya,Sat Feb 24 22:31:49 AST 2024
+Transaction Started,begin transaction;,bhavya,Sat Feb 24 22:32:01 AST 2024
+Rollback,rollback;,bhavya,Sat Feb 24 22:33:46 AST 2024
+Commit,commit;,bhavya,Sat Feb 24 22:33:50 AST 2024
+table,select * from table,bhavya,Sat Feb 24 22:34:09 AST 2024
+tutor,create table tutor (id int; firstName varchar(255); lastName varchar(255)),bhavya,Sat Feb 24 22:36:43 AST 2024
+tutor,create table tutor (id int; firstName varchar(255); lastName varchar(255)),bhavya,Sat Feb 24 22:37:52 AST 2024
+Transaction Started,begin transaction;,bhavya,Sat Feb 24 22:38:06 AST 2024
+Rollback,rollback;,bhavya,Sat Feb 24 22:39:08 AST 2024
+Commit,commit;,bhavya,Sat Feb 24 22:39:12 AST 2024
+(4;"Joe";"Davis"),insert into tutor values (4;"Joe";"Davis"),bhavya,Sat Feb 24 22:39:52 AST 2024
+tutor,select * from tutor,bhavya,Sat Feb 24 22:40:01 AST 2024
+jobs,create table jobs (id int; type varchar(255)),bhavya,Sun Feb 25 22:57:52 AST 2024
+(1;"software");(2;"commerce"),insert into jobs values (1;"software");(2;"commerce"),bhavya,Sun Feb 25 22:58:18 AST 2024
+jobs,select id from jobs,bhavya,Sun Feb 25 22:58:28 AST 2024
+jobs,select type;id from jobs,bhavya,Sun Feb 25 22:58:40 AST 2024
+Transaction Started,begin transaction;,bhavya,Sun Feb 25 22:58:49 AST 2024
+Rollback,rollback;,bhavya,Sun Feb 25 22:59:22 AST 2024
+Commit,commit;,bhavya,Sun Feb 25 22:59:51 AST 2024
+(3;"pilot"),insert into table values (3;"pilot");,bhavya,Sun Feb 25 22:59:51 AST 2024
+jobs,select * from jobs,bhavya,Sun Feb 25 23:00:12 AST 2024
+Transaction Started,begin transaction;,bhavya,Sun Feb 25 23:00:27 AST 2024
+Commit,commit;,bhavya,Sun Feb 25 23:00:43 AST 2024
+(3;"pilot"),insert into jobs values (3;"pilot");,bhavya,Sun Feb 25 23:00:43 AST 2024
+jobs,select * from jobs,bhavya,Sun Feb 25 23:00:50 AST 2024
+jobs,select * from jobs,bhavya,Sun Feb 25 23:30:55 AST 2024
+jobs,select * from jobs,bhavya,Mon Feb 26 09:59:42 AST 2024
